@@ -1,6 +1,9 @@
 import django
 from django import template
-from django.utils.inspect import getargspec
+if django.VERSION[0] == 2:
+    from inspect import getfullargspec as getargspec
+else:
+    from django.utils.inspect import getargspec
 from django_performance_testing import core
 if django.VERSION[:2] == (1, 8):
     from django.template.base import TagHelperNode, parse_bits
