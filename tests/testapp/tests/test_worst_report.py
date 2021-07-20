@@ -1,5 +1,5 @@
 import pytest
-from django.utils import six
+import six
 from django_performance_testing.core import NameValueResult
 from django_performance_testing.reports import WorstReport, Result
 from django_performance_testing.signals import results_read

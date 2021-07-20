@@ -1,5 +1,5 @@
 import copy
-from django.utils import six
+import six
 from django_performance_testing.signals import results_read
 import pprint
 

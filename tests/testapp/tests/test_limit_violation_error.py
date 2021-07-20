@@ -1,5 +1,5 @@
 import pytest
-from django.utils import six
+import six
 from django_performance_testing.core import LimitViolationError
 from testapp.sixmock import MagicMock, PropertyMock
 

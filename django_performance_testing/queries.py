@@ -1,6 +1,6 @@
 import random
 from django.db import connection
-from django.utils import six
+import six
 from django_performance_testing.signals import before_clearing_queries_log
 from django_performance_testing.core import \
     BaseLimit, BaseCollector, NameValueResult

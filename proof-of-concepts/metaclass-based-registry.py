@@ -1,4 +1,4 @@
-from django.utils import six
+import six
 
 
 # NOTE: the downside here is that we will not be able to control the order
