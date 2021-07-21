@@ -1,6 +1,6 @@
 import django
 from django import template
-if django.VERSION[0] == 2:
+if django.VERSION[0] >= 2:
     from inspect import getfullargspec as getargspec
 else:
     from django.utils.inspect import getargspec
