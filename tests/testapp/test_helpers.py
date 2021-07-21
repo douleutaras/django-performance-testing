@@ -1,7 +1,7 @@
 from collections import namedtuple
 from django.conf import settings
 from django.test.utils import get_runner
-from django.utils import six
+import six
 from django_performance_testing import context
 from django_performance_testing.signals import results_collected
 

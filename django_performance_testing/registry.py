@@ -1,7 +1,7 @@
 from collections import OrderedDict
 from django.conf import settings
 from django.utils.module_loading import import_string
-from django.utils import six
+import six
 
 
 class DuplicateNamesError(TypeError):

@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.utils.six.moves import cPickle as pickle
+from six.moves import cPickle as pickle
 from django_performance_testing.signals import results_collected, results_read
 
 DEFAULT_DJPT_DATAFILE_PATH = 'djpt.results_collected'

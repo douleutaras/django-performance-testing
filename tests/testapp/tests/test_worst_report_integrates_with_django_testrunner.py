@@ -1,5 +1,5 @@
 from django.contrib.auth.models import Group
-from django.utils import six
+import six
 from django_performance_testing.management.commands.djpt_worst_report \
     import Command as WorstReportCommand
 from django_performance_testing.signals import results_collected

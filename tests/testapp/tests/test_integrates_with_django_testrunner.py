@@ -1,7 +1,7 @@
 from datetime import timedelta
 from django.contrib.auth.models import Group
 from django.test.utils import get_runner
-from django.utils import six
+import six
 from django_performance_testing import test_runner as djpt_test_runner_module
 from django_performance_testing.serializer import Reader
 from freezegun import freeze_time
